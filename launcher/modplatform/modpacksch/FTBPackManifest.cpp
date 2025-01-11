@@ -187,9 +187,3 @@ void ModpacksCH::loadVersion(ModpacksCH::Version & m, QJsonObject & obj)
         m.files.append(file);
     }
 }
-
-//static void loadVersionChangelog(ModpacksCH::VersionChangelog & m, QJsonObject & obj)
-//{
-//    m.content = Json::requireString(obj, "content");
-//    m.updated = Json::requireInteger(obj, "updated");
-//}
